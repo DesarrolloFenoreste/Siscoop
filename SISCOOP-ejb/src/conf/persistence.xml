@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="SISCOOP-ejbPU" transaction-type="RESOURCE_LOCAL">
+    <!-- <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider> -->
+    <class>com.fenoreste.modelo.entidad.Amortizaciones</class>
+    <class>com.fenoreste.modelo.entidad.Auxiliares</class>
+    <class>com.fenoreste.modelo.entidad.AuxiliaresD</class>
+    <class>com.fenoreste.modelo.entidad.BancaMovilUsuarios</class>
+    <class>com.fenoreste.modelo.entidad.Cataccttype</class>
+    <class>com.fenoreste.modelo.entidad.CatalogoCuentasTerceros</class>
+    <class>com.fenoreste.modelo.entidad.Colonias</class>
+    <class>com.fenoreste.modelo.entidad.Estados</class>
+    <class>com.fenoreste.modelo.entidad.Municipios</class>
+    <class>com.fenoreste.modelo.entidad.Origenes</class>
+    <class>com.fenoreste.modelo.entidad.Personas</class>
+    <class>com.fenoreste.modelo.entidad.Productos</class>
+    <class>com.fenoreste.modelo.entidad.Referenciasp</class>
+    <class>com.fenoreste.modelo.entidad.SPEI.AbonoSPEI</class>
+    <class>com.fenoreste.modelo.entidad.SPEI.WsSiscoopClabeInterbancaria</class>
+    <class>com.fenoreste.modelo.entidad.SPEI.WsSiscoopClabeInterbancariaH</class>
+    <class>com.fenoreste.modelo.entidad.SaiComisionCobranza</class>
+    <class>com.fenoreste.modelo.entidad.SaiSeguroHipotecario</class>
+    <class>com.fenoreste.modelo.entidad.SaldoTdd</class>
+    <class>com.fenoreste.modelo.entidad.Sopar</class>
+    <class>com.fenoreste.modelo.entidad.Tablas</class>
+    <class>com.fenoreste.modelo.entidad.Temporal</class>
+    <class>com.fenoreste.modelo.entidad.Usuarios</class>
+    <class>com.fenoreste.modelo.entidad.ValidaMovimientoCajeroReceptor</class>
+    <class>com.fenoreste.modelo.entidad.WsSiscoopFoliosTarjetas</class>
+    <class>com.fenoreste.modelo.entidad.WsSiscoopResultadoFinalBancamovil</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+  </persistence-unit>
+</persistence>

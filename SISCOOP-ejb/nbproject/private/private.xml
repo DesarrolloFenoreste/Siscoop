@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="CajeroReceptor"/>
+        <group name="SAICoop">
+            <file>file:/home/gerardo/NetBeansProjects/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/modelo/ejb/service/SiscoopService.java</file>
+            <file>file:/home/gerardo/NetBeansProjects/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/modelo/ejb/util/Validaciones.java</file>
+            <file>file:/home/gerardo/NetBeansProjects/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/webservice/impl/WsCajeroReceptorImpl.java</file>
+            <file>file:/home/gerardo/NetBeansProjects/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/webservice/impl/WsBancaMovilImpl.java</file>
+            <file>file:/home/gerardo/NetBeansProjects/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/modelo/ejb/impl/AbstractFacade.java</file>
+        </group>
+        <group>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/webservice/impl/WsSPEIImpl.java</file>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/modelo/ejb/service/TemporalService.java</file>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/webservice/impl/WsBancaMovilImpl.java</file>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/metodos/toCliente/Peticiones.java</file>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/webservice/WsTDD.java</file>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/serviciosExternos/utilidades/TarjetaDeDebito.java</file>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/webservice/impl/WsTDDImpl.java</file>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/modelo/ejb/util/Validaciones.java</file>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/modelo/ejb/service/SiscoopService.java</file>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/modelo/ejb/util/SaiFunciones.java</file>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/modelo/ejb/service/TablasService.java</file>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/modelo/ejb/facade/AbonoAdelantadoInteresFacade.java</file>
+            <file>file:/home/wilmer/Descargas/SISCOOP/SISCOOP/trunk/SISCOOP/SISCOOP-ejb/src/java/com/fenoreste/modelo/ejb/util/Seguridad.java</file>
+        </group>
+    </open-files>
+</project-private>

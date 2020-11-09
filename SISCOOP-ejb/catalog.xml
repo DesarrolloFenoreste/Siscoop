@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/WsBancaMovilImplService/WsBancaMovilImpl?wsdl" uri="src/conf/xml-resources/web-service-references/WsBancaMovilImpl/wsdl/localhost_8080/WsBancaMovilImplService/WsBancaMovilImpl.wsdl"/>
+    <system systemId="http://localhost:8080/WsBancaMovilImplService/WsBancaMovilImpl?wsdl=1" uri="src/conf/xml-resources/web-service-references/WsBancaMovilImpl/wsdl/localhost_8080/WsBancaMovilImplService/WsBancaMovilImpl.wsdl_1.wsdl"/>
+    <system systemId="http://localhost:8080/WsBancaMovilImplService/WsBancaMovilImpl?xsd=1" uri="src/conf/xml-resources/web-service-references/WsBancaMovilImpl/wsdl/localhost_8080/WsBancaMovilImplService/WsBancaMovilImpl.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/WsBancaMovilImplService/WsBancaMovilImpl?xsd=2" uri="src/conf/xml-resources/web-service-references/WsBancaMovilImpl/wsdl/localhost_8080/WsBancaMovilImplService/WsBancaMovilImpl.xsd_2.xsd"/>
+    <system systemId="file:/home/gerardo/Escritorio/wsdlSYC.wsdl" uri="src/conf/xml-resources/web-service-references/wsdlSYC/wsdl/wsdlSYC.wsdl"/>
+    <nextCatalog catalog="nbproject/private/retriever/catalog.xml"/>
+    <system systemId="http://172.16.28.85:6969/syc/webservice/siscoopAlternativeService?wsdl" uri="src/conf/xml-resources/web-service-references/siscoopAlternativeService/wsdl/172.16.28.85_6969/syc/webservice/siscoopAlternativeService.wsdl"/>
+    <system systemId="http://172.16.28.85:6969/syc/webservice/siscoopAlternativeService?wsdl=SiscoopAlternativeEndpoint.wsdl" uri="src/conf/xml-resources/web-service-references/siscoopAlternativeService/wsdl/172.16.28.85_6969/syc/webservice/siscoopAlternativeService.wsdl_SiscoopAlternativeEndpoint.wsdl"/>
+</catalog>

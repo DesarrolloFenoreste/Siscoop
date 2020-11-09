@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <definitions 
+ xmlns="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="WsTDDImplService" targetNamespace="http://impl.webservice.fenoreste.com/" xmlns:tns="http://impl.webservice.fenoreste.com/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:fi="http://java.sun.com/xml/ns/wsit/2006/09/policy/fastinfoset/service" xmlns:tcp="http://java.sun.com/xml/ns/wsit/2006/09/policy/soaptcp/service" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:sc="http://schemas.sun.com/2006/03/wss/server" xmlns:wspp="http://java.sun.com/xml/ns/wsit/policy" 
+ >
+    <message name="wsSaldoTDD"/>
+    <message name="wsSaldoTDDResponse"/>
+    <message name="wsRetiroTDD"/>
+    <message name="wsRetiroTDDResponse"/>
+    <message name="wsDepositoTDD"/>
+    <message name="wsDepositoTDDResponse"/>
+    <message name="wsAsignarCuentaTDD"/>
+    <message name="wsAsignarCuentaTDDResponse"/>
+    <portType name="WsTDDImpl">
+        <operation name="wsSaldoTDD">
+            <input message="tns:wsSaldoTDD"/>
+            <output message="tns:wsSaldoTDDResponse"/>
+        </operation>
+        <operation name="wsRetiroTDD">
+            <input message="tns:wsRetiroTDD"/>
+            <output message="tns:wsRetiroTDDResponse"/>
+        </operation>
+        <operation name="wsDepositoTDD">
+            <input message="tns:wsDepositoTDD"/>
+            <output message="tns:wsDepositoTDDResponse"/>
+        </operation>
+        <operation name="wsAsignarCuentaTDD">
+            <input message="tns:wsAsignarCuentaTDD"/>
+            <output message="tns:wsAsignarCuentaTDDResponse"/>
+        </operation>
+    </portType>
+    <binding name="WsTDDImplPortBinding" type="tns:WsTDDImpl">
+        <wsp:PolicyReference URI="#WsTDDImplPortBindingPolicy"/>
+        <operation name="wsSaldoTDD">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsRetiroTDD">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsDepositoTDD">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsAsignarCuentaTDD">
+            <input></input>
+            <output></output>
+        </operation>
+    </binding>
+    <service name="WsTDDImplService">
+        <port name="WsTDDImplPort" binding="tns:WsTDDImplPortBinding"/>
+    </service>
+    <wsp:Policy wsu:Id="WsTDDImplPortBindingPolicy">
+        <wsp:ExactlyOne>
+            <wsp:All>
+                <wsam:Addressing/>
+                <sp:TransportBinding>
+                    <wsp:Policy>
+                        <sp:TransportToken>
+                            <wsp:Policy>
+                                <sp:HttpsToken RequireClientCertificate="true"/>
+                            </wsp:Policy>
+                        </sp:TransportToken>
+                        <sp:Layout>
+                            <wsp:Policy>
+                                <sp:Lax/>
+                            </wsp:Policy>
+                        </sp:Layout>
+                        <sp:IncludeTimestamp/>
+                        <sp:AlgorithmSuite>
+                            <wsp:Policy>
+                                <sp:Basic128/>
+                            </wsp:Policy>
+                        </sp:AlgorithmSuite>
+                    </wsp:Policy>
+                </sp:TransportBinding>
+                <sp:Wss10/>
+            </wsp:All>
+        </wsp:ExactlyOne>
+    </wsp:Policy>
+</definitions>

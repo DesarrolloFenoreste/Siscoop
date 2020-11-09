@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <definitions 
+ xmlns="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="WsBancaMovilImplService" targetNamespace="http://impl.webservice.fenoreste.com/" xmlns:tns="http://impl.webservice.fenoreste.com/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:fi="http://java.sun.com/xml/ns/wsit/2006/09/policy/fastinfoset/service" xmlns:tcp="http://java.sun.com/xml/ns/wsit/2006/09/policy/soaptcp/service" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:sc="http://schemas.sun.com/2006/03/wss/server" xmlns:wspp="http://java.sun.com/xml/ns/wsit/policy" 
+ >
+    <message name="wsGetAccountReq"/>
+    <message name="wsGetAccountReqResponse"/>
+    <message name="wsGetClientDataReq"/>
+    <message name="wsGetClientDataReqResponse"/>
+    <message name="wsGetAccountsListReq"/>
+    <message name="wsGetAccountsListReqResponse"/>
+    <message name="wsDepositAccountReq"/>
+    <message name="wsDepositAccountReqResponse"/>
+    <message name="wsTransferOwnReq"/>
+    <message name="wsTransferOwnReqResponse"/>
+    <message name="wsTransferReq"/>
+    <message name="wsTransferReqResponse"/>
+    <message name="wsTransferThirdReq"/>
+    <message name="wsTransferThirdReqResponse"/>
+    <message name="wsGetAccountTxsReq"/>
+    <message name="wsGetAccountTxsReqResponse"/>
+    <message name="wsGetAccountTrasReq"/>
+    <message name="wsGetAccountTrasReqResponse"/>
+    <message name="wsGetSaiAuxiliarPresReq"/>
+    <message name="wsGetSaiAuxiliarPresReqResponse"/>
+    <message name="wsGetSaiAuxiliarAhoReq"/>
+    <message name="wsGetSaiAuxiliarAhoReqResponse"/>
+    <message name="wsGetSaldoAuxiliarDTOReq"/>
+    <message name="wsGetSaldoAuxiliarDTOReqResponse"/>
+    <message name="wsGetAccountThirdByOGSReq"/>
+    <message name="wsGetAccountThirdByOGSReqResponse"/>
+    <portType name="WsBancaMovilImpl">
+        <operation name="wsGetAccountReq">
+            <input message="tns:wsGetAccountReq"/>
+            <output message="tns:wsGetAccountReqResponse"/>
+        </operation>
+        <operation name="wsGetClientDataReq">
+            <input message="tns:wsGetClientDataReq"/>
+            <output message="tns:wsGetClientDataReqResponse"/>
+        </operation>
+        <operation name="wsGetAccountsListReq">
+            <input message="tns:wsGetAccountsListReq"/>
+            <output message="tns:wsGetAccountsListReqResponse"/>
+        </operation>
+        <operation name="wsDepositAccountReq">
+            <input message="tns:wsDepositAccountReq"/>
+            <output message="tns:wsDepositAccountReqResponse"/>
+        </operation>
+        <operation name="wsTransferOwnReq">
+            <input message="tns:wsTransferOwnReq"/>
+            <output message="tns:wsTransferOwnReqResponse"/>
+        </operation>
+        <operation name="wsTransferReq">
+            <input message="tns:wsTransferReq"/>
+            <output message="tns:wsTransferReqResponse"/>
+        </operation>
+        <operation name="wsTransferThirdReq">
+            <input message="tns:wsTransferThirdReq"/>
+            <output message="tns:wsTransferThirdReqResponse"/>
+        </operation>
+        <operation name="wsGetAccountTxsReq">
+            <input message="tns:wsGetAccountTxsReq"/>
+            <output message="tns:wsGetAccountTxsReqResponse"/>
+        </operation>
+        <operation name="wsGetAccountTrasReq">
+            <input message="tns:wsGetAccountTrasReq"/>
+            <output message="tns:wsGetAccountTrasReqResponse"/>
+        </operation>
+        <operation name="wsGetSaiAuxiliarPresReq">
+            <input message="tns:wsGetSaiAuxiliarPresReq"/>
+            <output message="tns:wsGetSaiAuxiliarPresReqResponse"/>
+        </operation>
+        <operation name="wsGetSaiAuxiliarAhoReq">
+            <input message="tns:wsGetSaiAuxiliarAhoReq"/>
+            <output message="tns:wsGetSaiAuxiliarAhoReqResponse"/>
+        </operation>
+        <operation name="wsGetSaldoAuxiliarDTOReq">
+            <input message="tns:wsGetSaldoAuxiliarDTOReq"/>
+            <output message="tns:wsGetSaldoAuxiliarDTOReqResponse"/>
+        </operation>
+        <operation name="wsGetAccountThirdByOGSReq">
+            <input message="tns:wsGetAccountThirdByOGSReq"/>
+            <output message="tns:wsGetAccountThirdByOGSReqResponse"/>
+        </operation>
+    </portType>
+    <binding name="WsBancaMovilImplPortBinding" type="tns:WsBancaMovilImpl">
+        <operation name="wsGetAccountReq">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsGetClientDataReq">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsGetAccountsListReq">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsDepositAccountReq">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsTransferOwnReq">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsTransferReq">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsTransferThirdReq">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsGetAccountTxsReq">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsGetAccountTrasReq">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsGetSaiAuxiliarPresReq">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsGetSaiAuxiliarAhoReq">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsGetSaldoAuxiliarDTOReq">
+            <input></input>
+            <output></output>
+        </operation>
+        <operation name="wsGetAccountThirdByOGSReq">
+            <input></input>
+            <output></output>
+        </operation>
+    </binding>
+    <service name="WsBancaMovilImplService">
+        <port name="WsBancaMovilImplPort" binding="tns:WsBancaMovilImplPortBinding"/>
+    </service>
+</definitions>
